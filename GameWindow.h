@@ -7,10 +7,22 @@
  *
  */
 
-#ifndef __GAME_WINDOW
-#define __GAME_WINDOW
+#ifndef __GAME_WINDOW_H
+#define __GAME_WINDOW_H
 
-#include "my_includes.h"
+#include <Gosu/Gosu.hpp>
+#include <Gosu/AutoLink.hpp>
+
+#include <boost/scoped_ptr.hpp>
+#include <boost/shared_ptr.hpp>
+#include <boost/lexical_cast.hpp>
+
+#include <cmath>
+#include <cstdlib>
+#include <list>
+#include <vector>
+
+#include "enums.h"
 #include "Player.h"
 
 class GameWindow : public Gosu::Window {

@@ -7,14 +7,18 @@
  *
  */
 
-#ifndef __ENUMS
-#define __ENUMS
+#ifndef __ENUMS_H
+#define __ENUMS_H
 
-enum ZOrder {
-  zBackground,
-  zStars,
-  zPlayer,
-  zUI
-};
+namespace Game {
+
+  enum ZOrder {
+    zBackground,
+    zStars,
+    zPlayer,
+    zUI
+  };
+
+}
 
 #endif

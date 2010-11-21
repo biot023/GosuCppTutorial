@@ -7,10 +7,13 @@
  *
  */
 
-#ifndef __PLAYER
-#define __PLAYER
+#ifndef __PLAYER_H
+#define __PLAYER_H
 
-#include "my_includes.h"
+#include <Gosu/Gosu.hpp>
+#include <Gosu/AutoLink.hpp>
+#include <boost/scoped_ptr.hpp>
+#include "enums.h"
 
 class Player {
 public:

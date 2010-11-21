@@ -30,7 +30,7 @@ void GameWindow::update() {
 
 void GameWindow::draw() {
   player.draw();
-  backgroundImage->draw( 0, 0, zBackground );
+  backgroundImage->draw( 0, 0, Game::zBackground );
 }
 
 void GameWindow::buttonDown( Gosu::Button button ) {

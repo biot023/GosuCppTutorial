@@ -42,5 +42,5 @@ void Player::move() {
 }
 
 void Player::draw() {
-  image->drawRot( posX, posY, zPlayer, angle );
+  image->drawRot( posX, posY, Game::zPlayer, angle );
 }
