@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'GosuCppTutorial' target in the 'GosuCppTutorial' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
