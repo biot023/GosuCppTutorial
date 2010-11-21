@@ -24,6 +24,7 @@
 
 #include "enums.h"
 #include "Player.h"
+#include "Star.h"
 
 class GameWindow : public Gosu::Window {
 public:
@@ -34,7 +35,9 @@ public:
   
 private:
   boost::scoped_ptr<Gosu::Image> backgroundImage;
+  Game::Animation starAnim;
   Player player;
+  std::list<Star> stars;
 };
 
 #endif

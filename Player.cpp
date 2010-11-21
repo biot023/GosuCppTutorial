@@ -41,6 +41,16 @@ void Player::move() {
   velY *= 0.95;
 }
 
-void Player::draw() {
+void Player::draw() const {
   image->drawRot( posX, posY, Game::zPlayer, angle );
+}
+
+void Player::collectStars( std::list<Star>& stars ) const {
+  std::list<Star>::iterator cur = stars.begin();
+  while ( cur != stars.end() ) {
+    if ( Gosu::distance( posX, posY, cur->x(), cur->y() ) < 35 )
+      cur = stars.erase( cur );
+    else
+      ++cur;
+  }
 }

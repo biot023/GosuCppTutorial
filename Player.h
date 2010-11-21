@@ -12,8 +12,10 @@
 
 #include <Gosu/Gosu.hpp>
 #include <Gosu/AutoLink.hpp>
+#include <list>
 #include <boost/scoped_ptr.hpp>
 #include "enums.h"
+#include "Star.h"
 
 class Player {
 public:
@@ -24,7 +26,9 @@ public:
   void turnRight();
   void accelerate();
   void move();
-  void draw();
+  void draw() const;
+  
+  void collectStars( std::list<Star>& stars ) const;
   
 private:
   boost::scoped_ptr<Gosu::Image> image;

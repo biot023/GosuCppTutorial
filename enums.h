@@ -18,6 +18,8 @@ namespace Game {
     zPlayer,
     zUI
   };
+  
+  typedef std::vector<boost::shared_ptr<Gosu::Image> > Animation;
 
 }
 
