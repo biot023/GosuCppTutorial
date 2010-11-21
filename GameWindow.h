@@ -7,6 +7,9 @@
  *
  */
 
+#ifndef __GAME_WINDOW
+#define __GAME_WINDOW
+
 #include "my_includes.h"
 #include "Player.h"
 
@@ -21,3 +24,5 @@ private:
   boost::scoped_ptr<Gosu::Image> backgroundImage;
   Player player;
 };
+
+#endif

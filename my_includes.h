@@ -7,6 +7,9 @@
  *
  */
 
+#ifndef __MY_INCLUDES
+#define __MY_INCLUDES
+
 #include <Gosu/Gosu.hpp>
 #include <Gosu/AutoLink.hpp>
 
@@ -18,3 +21,7 @@
 #include <cstdlib>
 #include <list>
 #include <vector>
+
+#include "enums.h"
+
+#endif

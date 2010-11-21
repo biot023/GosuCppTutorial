@@ -52,6 +52,7 @@
 		A6C340091298937B00353B9A /* my_includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_includes.h; sourceTree = "<group>"; };
 		A6C34023129898F200353B9A /* Space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Space.png; sourceTree = "<group>"; };
 		A6C3404512989CB800353B9A /* Starfighter.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Starfighter.bmp; sourceTree = "<group>"; };
+		A6C340821298A9C700353B9A /* enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enums.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +126,7 @@
 				A6C33FAA12988C6F00353B9A /* main.cpp */,
 				256AC3F00F4B6AF500CF3369 /* GosuCppTutorial_Prefix.pch */,
 				A6C340091298937B00353B9A /* my_includes.h */,
+				A6C340821298A9C700353B9A /* enums.h */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";

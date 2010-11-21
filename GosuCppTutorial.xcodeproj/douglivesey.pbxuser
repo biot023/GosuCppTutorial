@@ -19,7 +19,6 @@
 		activeExecutable = A6C33F611298849A00353B9A /* GosuCppTutorial */;
 		activeTarget = 8D1107260486CEB800E47090 /* GosuCppTutorial */;
 		addToTargets = (
-			8D1107260486CEB800E47090 /* GosuCppTutorial */,
 		);
 		codeSenseManager = A6C33F6E129884B900353B9A /* Code sense */;
 		executables = (
@@ -175,6 +174,27 @@
 			A6C340751298A26800353B9A /* PBXTextBookmark */ = A6C340751298A26800353B9A /* PBXTextBookmark */;
 			A6C340771298A27B00353B9A /* PBXTextBookmark */ = A6C340771298A27B00353B9A /* PBXTextBookmark */;
 			A6C3407C1298A34900353B9A /* PBXTextBookmark */ = A6C3407C1298A34900353B9A /* PBXTextBookmark */;
+			A6C340851298AA1A00353B9A /* PBXTextBookmark */ = A6C340851298AA1A00353B9A /* PBXTextBookmark */;
+			A6C340861298AA1A00353B9A /* XCBuildMessageTextBookmark */ = A6C340861298AA1A00353B9A /* XCBuildMessageTextBookmark */;
+			A6C340871298AA1A00353B9A /* PBXTextBookmark */ = A6C340871298AA1A00353B9A /* PBXTextBookmark */;
+			A6C340881298AA2D00353B9A /* PBXTextBookmark */ = A6C340881298AA2D00353B9A /* PBXTextBookmark */;
+			A6C340891298AA2D00353B9A /* PBXTextBookmark */ = A6C340891298AA2D00353B9A /* PBXTextBookmark */;
+			A6C3408A1298AA2D00353B9A /* PBXTextBookmark */ = A6C3408A1298AA2D00353B9A /* PBXTextBookmark */;
+			A6C3408B1298AA2D00353B9A /* PBXTextBookmark */ = A6C3408B1298AA2D00353B9A /* PBXTextBookmark */;
+			A6C3408C1298AA2D00353B9A /* XCBuildMessageTextBookmark */ = A6C3408C1298AA2D00353B9A /* XCBuildMessageTextBookmark */;
+			A6C3408D1298AA2D00353B9A /* PBXTextBookmark */ = A6C3408D1298AA2D00353B9A /* PBXTextBookmark */;
+			A6C340931298AAEE00353B9A /* PBXTextBookmark */ = A6C340931298AAEE00353B9A /* PBXTextBookmark */;
+			A6C340941298AAEE00353B9A /* PBXTextBookmark */ = A6C340941298AAEE00353B9A /* PBXTextBookmark */;
+			A6C340961298AB1700353B9A /* PBXTextBookmark */ = A6C340961298AB1700353B9A /* PBXTextBookmark */;
+			A6C340971298AB1D00353B9A /* PBXBookmark */ = A6C340971298AB1D00353B9A /* PBXBookmark */;
+			A6C3409A1298AB3300353B9A /* PBXTextBookmark */ = A6C3409A1298AB3300353B9A /* PBXTextBookmark */;
+			A6C3409D1298AB3300353B9A /* PBXTextBookmark */ = A6C3409D1298AB3300353B9A /* PBXTextBookmark */;
+			A6C3409F1298AB3800353B9A /* PBXTextBookmark */ = A6C3409F1298AB3800353B9A /* PBXTextBookmark */;
+			A6C340A01298AB3F00353B9A /* PBXBookmark */ = A6C340A01298AB3F00353B9A /* PBXBookmark */;
+			A6C340A31298AB4F00353B9A /* PBXTextBookmark */ = A6C340A31298AB4F00353B9A /* PBXTextBookmark */;
+			A6C340A61298AB4F00353B9A /* PBXTextBookmark */ = A6C340A61298AB4F00353B9A /* PBXTextBookmark */;
+			A6C340A81298AB5B00353B9A /* PBXTextBookmark */ = A6C340A81298AB5B00353B9A /* PBXTextBookmark */;
+			A6C340A91298AB5D00353B9A /* PBXTextBookmark */ = A6C340A91298AB5D00353B9A /* PBXTextBookmark */;
 		};
 		sourceControlManager = A6C33F6D129884B900353B9A /* Source Control */;
 		userBuildSettings = {
@@ -233,16 +253,16 @@
 	A6C33FA012988A9C00353B9A /* GameWindow.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {737, 483}}";
-			sepNavSelRange = "{333, 0}";
-			sepNavVisRange = "{0, 416}";
+			sepNavSelRange = "{468, 0}";
+			sepNavVisRange = "{0, 469}";
 			sepNavWindowFrame = "{{571, 132}, {796, 611}}";
 		};
 	};
 	A6C33FA112988A9C00353B9A /* GameWindow.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {737, 507}}";
-			sepNavSelRange = "{232, 0}";
-			sepNavVisRange = "{3, 990}";
+			sepNavSelRange = "{898, 0}";
+			sepNavVisRange = "{3, 1000}";
 			sepNavWindowFrame = "{{642, 125}, {796, 611}}";
 		};
 	};
@@ -256,8 +276,8 @@
 	};
 	A6C33FAA12988C6F00353B9A /* main.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 222}}";
-			sepNavSelRange = "{175, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{234, 0}";
 			sepNavVisRange = "{0, 254}";
 			sepNavWindowFrame = "{{468, 166}, {796, 611}}";
 		};
@@ -341,7 +361,7 @@
 		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
 		name = "GameWindow.h: 24";
 		rLen = 0;
-		rLoc = 412;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 449;
 		vrLoc = 0;
@@ -351,7 +371,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 20";
 		rLen = 0;
-		rLoc = 992;
+		rLoc = 1002;
 		rType = 0;
 		vrLen = 337;
 		vrLoc = 0;
@@ -466,7 +486,7 @@
 		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
 		name = "GameWindow.h: 29";
 		rLen = 0;
-		rLoc = 412;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 0;
@@ -486,7 +506,7 @@
 		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
 		name = "GameWindow.h: 29";
 		rLen = 0;
-		rLoc = 412;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 0;
@@ -496,7 +516,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 23";
 		rLen = 0;
-		rLoc = 891;
+		rLoc = 901;
 		rType = 0;
 		vrLen = 526;
 		vrLoc = 0;
@@ -536,7 +556,7 @@
 		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
 		name = "GameWindow.h: 29";
 		rLen = 0;
-		rLoc = 412;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 0;
@@ -546,7 +566,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 23";
 		rLen = 0;
-		rLoc = 891;
+		rLoc = 901;
 		rType = 0;
 		vrLen = 526;
 		vrLoc = 0;
@@ -566,7 +586,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 23";
 		rLen = 0;
-		rLoc = 891;
+		rLoc = 901;
 		rType = 0;
 		vrLen = 526;
 		vrLoc = 0;
@@ -576,7 +596,7 @@
 		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
 		name = "GameWindow.h: 29";
 		rLen = 0;
-		rLoc = 412;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 0;
@@ -606,7 +626,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 23";
 		rLen = 0;
-		rLoc = 891;
+		rLoc = 901;
 		rType = 0;
 		vrLen = 526;
 		vrLoc = 0;
@@ -616,7 +636,7 @@
 		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
 		name = "GameWindow.h: 29";
 		rLen = 0;
-		rLoc = 412;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 0;
@@ -624,16 +644,16 @@
 	A6C340031298934100353B9A /* Player.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {737, 483}}";
-			sepNavSelRange = "{250, 0}";
-			sepNavVisRange = "{0, 471}";
+			sepNavSelRange = "{513, 0}";
+			sepNavVisRange = "{0, 514}";
 			sepNavWindowFrame = "{{502, 88}, {796, 611}}";
 		};
 	};
 	A6C340041298934100353B9A /* Player.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {737, 611}}";
-			sepNavSelRange = "{968, 0}";
-			sepNavVisRange = "{154, 817}";
+			sepNavSelRange = "{974, 0}";
+			sepNavVisRange = "{154, 823}";
 			sepNavWindowFrame = "{{495, 142}, {796, 611}}";
 		};
 	};
@@ -643,9 +663,9 @@
 	};
 	A6C340091298937B00353B9A /* my_includes.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 273}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 363}";
+			sepNavIntBoundsRect = "{{0, 0}, {737, 483}}";
+			sepNavSelRange = "{453, 0}";
+			sepNavVisRange = "{0, 454}";
 			sepNavWindowFrame = "{{107, 178}, {796, 611}}";
 		};
 	};
@@ -708,7 +728,7 @@
 		fRef = A6C340031298934100353B9A /* Player.h */;
 		name = "Player.h: 15";
 		rLen = 0;
-		rLoc = 250;
+		rLoc = 285;
 		rType = 0;
 		vrLen = 471;
 		vrLoc = 0;
@@ -718,7 +738,7 @@
 		fRef = A6C340041298934100353B9A /* Player.cpp */;
 		name = "Player.cpp: 45";
 		rLen = 0;
-		rLoc = 968;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 154;
@@ -748,7 +768,7 @@
 		fRef = A6C340031298934100353B9A /* Player.h */;
 		name = "Player.h: 15";
 		rLen = 0;
-		rLoc = 250;
+		rLoc = 285;
 		rType = 0;
 		vrLen = 471;
 		vrLoc = 0;
@@ -758,7 +778,7 @@
 		fRef = A6C340041298934100353B9A /* Player.cpp */;
 		name = "Player.cpp: 45";
 		rLen = 0;
-		rLoc = 968;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 154;
@@ -822,7 +842,7 @@
 		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
 		name = "GameWindow.h: 11";
 		rLen = 0;
-		rLoc = 200;
+		rLoc = 245;
 		rType = 0;
 		vrLen = 364;
 		vrLoc = 0;
@@ -904,7 +924,7 @@
 		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
 		name = "GameWindow.h: 21";
 		rLen = 0;
-		rLoc = 412;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 0;
@@ -954,7 +974,7 @@
 		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
 		name = "GameWindow.h: 21";
 		rLen = 0;
-		rLoc = 412;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 0;
@@ -994,7 +1014,7 @@
 		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
 		name = "GameWindow.h: 21";
 		rLen = 0;
-		rLoc = 412;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 0;
@@ -1033,7 +1053,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 36";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 905;
 		rType = 0;
 		vrLen = 296;
 		vrLoc = 698;
@@ -1052,7 +1072,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 36";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 905;
 		rType = 0;
 		vrLen = 296;
 		vrLoc = 698;
@@ -1079,7 +1099,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 36";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 905;
 		rType = 0;
 		vrLen = 512;
 		vrLoc = 480;
@@ -1089,7 +1109,7 @@
 		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
 		name = "GameWindow.h: 18";
 		rLen = 0;
-		rLoc = 324;
+		rLoc = 369;
 		rType = 0;
 		vrLen = 407;
 		vrLoc = 0;
@@ -1099,7 +1119,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 37";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 1000;
 		rType = 0;
 		vrLen = 991;
 		vrLoc = 3;
@@ -1109,7 +1129,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 36";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 905;
 		rType = 0;
 		vrLen = 512;
 		vrLoc = 480;
@@ -1119,7 +1139,7 @@
 		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
 		name = "GameWindow.h: 18";
 		rLen = 0;
-		rLoc = 333;
+		rLoc = 378;
 		rType = 0;
 		vrLen = 416;
 		vrLoc = 0;
@@ -1129,7 +1149,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 37";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 1000;
 		rType = 0;
 		vrLen = 991;
 		vrLoc = 3;
@@ -1139,7 +1159,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 36";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 905;
 		rType = 0;
 		vrLen = 512;
 		vrLoc = 480;
@@ -1149,7 +1169,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 37";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 1000;
 		rType = 0;
 		vrLen = 991;
 		vrLoc = 3;
@@ -1159,7 +1179,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 36";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 905;
 		rType = 0;
 		vrLen = 320;
 		vrLoc = 674;
@@ -1169,7 +1189,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 36";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 905;
 		rType = 0;
 		vrLen = 641;
 		vrLoc = 153;
@@ -1199,7 +1219,7 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 36";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 905;
 		rType = 0;
 		vrLen = 413;
 		vrLoc = 578;
@@ -1209,9 +1229,212 @@
 		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
 		name = "GameWindow.cpp: 36";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 905;
 		rType = 0;
 		vrLen = 413;
 		vrLoc = 578;
+	};
+	A6C340821298A9C700353B9A /* enums.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 273}}";
+			sepNavSelRange = "{184, 0}";
+			sepNavVisRange = "{0, 195}";
+		};
+	};
+	A6C340851298AA1A00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
+		name = "GameWindow.cpp: 36";
+		rLen = 0;
+		rLoc = 905;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 578;
+	};
+	A6C340861298AA1A00353B9A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Multiple definition of 'enum ZOrder'";
+		fRef = A6C340821298A9C700353B9A /* enums.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 12;
+		rType = 1;
+	};
+	A6C340871298AA1A00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C340821298A9C700353B9A /* enums.h */;
+		name = "enums.h: 10";
+		rLen = 0;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 210;
+		vrLoc = 0;
+	};
+	A6C340881298AA2D00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C33FAA12988C6F00353B9A /* main.cpp */;
+		name = "main.cpp: 13";
+		rLen = 0;
+		rLoc = 234;
+		rType = 0;
+		vrLen = 254;
+		vrLoc = 0;
+	};
+	A6C340891298AA2D00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
+		name = "GameWindow.cpp: 36";
+		rLen = 0;
+		rLoc = 905;
+		rType = 0;
+		vrLen = 615;
+		vrLoc = 153;
+	};
+	A6C3408A1298AA2D00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C33FA012988A9C00353B9A /* GameWindow.h */;
+		name = "GameWindow.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 330;
+		vrLoc = 86;
+	};
+	A6C3408B1298AA2D00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C340091298937B00353B9A /* my_includes.h */;
+		name = "my_includes.h: 22";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 44;
+	};
+	A6C3408C1298AA2D00353B9A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Multiple definition of 'enum ZOrder'";
+		fRef = A6C340821298A9C700353B9A /* enums.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 12;
+		rType = 1;
+	};
+	A6C3408D1298AA2D00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C340821298A9C700353B9A /* enums.h */;
+		name = "enums.h: 10";
+		rLen = 0;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 212;
+		vrLoc = 0;
+	};
+	A6C340931298AAEE00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C340821298A9C700353B9A /* enums.h */;
+		name = "enums.h: 11";
+		rLen = 0;
+		rLoc = 177;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 3;
+	};
+	A6C340941298AAEE00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* GosuCppTutorialAppDelegate.h */;
+		name = "GosuCppTutorialAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 345;
+		vrLoc = 0;
+	};
+	A6C340961298AB1700353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C340821298A9C700353B9A /* enums.h */;
+		name = "enums.h: 13";
+		rLen = 0;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 195;
+		vrLoc = 0;
+	};
+	A6C340971298AB1D00353B9A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
+	};
+	A6C3409A1298AB3300353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* GosuCppTutorialAppDelegate.h */;
+		name = "GosuCppTutorialAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 345;
+		vrLoc = 0;
+	};
+	A6C3409D1298AB3300353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C33FA112988A9C00353B9A /* GameWindow.cpp */;
+		name = "GameWindow.cpp: 33";
+		rLen = 0;
+		rLoc = 898;
+		rType = 0;
+		vrLen = 1000;
+		vrLoc = 3;
+	};
+	A6C3409F1298AB3800353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C340821298A9C700353B9A /* enums.h */;
+		name = "enums.h: 13";
+		rLen = 0;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 195;
+		vrLoc = 0;
+	};
+	A6C340A01298AB3F00353B9A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A6C340041298934100353B9A /* Player.cpp */;
+	};
+	A6C340A31298AB4F00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* GosuCppTutorialAppDelegate.h */;
+		name = "GosuCppTutorialAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 345;
+		vrLoc = 0;
+	};
+	A6C340A61298AB4F00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C340041298934100353B9A /* Player.cpp */;
+		name = "Player.cpp: 45";
+		rLen = 0;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 823;
+		vrLoc = 154;
+	};
+	A6C340A81298AB5B00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6C340821298A9C700353B9A /* enums.h */;
+		name = "enums.h: 13";
+		rLen = 0;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 195;
+		vrLoc = 0;
+	};
+	A6C340A91298AB5D00353B9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* GosuCppTutorialAppDelegate.h */;
+		name = "GosuCppTutorialAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 345;
+		vrLoc = 0;
 	};
 }

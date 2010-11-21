@@ -1,7 +1,7 @@
 TGosuCppTutorial
 v7
 r0
-t311992999.986791
+t311995214.777249
 cCheck dependencies
 cProcessInfoPlistFile ./GosuCppTutorial.app/Contents/Info.plist GosuCppTutorial-Info.plist
 cCopyStringsFile /Users/douglivesey/work/cpp/GosuCppTutorial/./GosuCppTutorial.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -18,7 +18,7 @@ cPBXCp ./GosuCppTutorial.app/Contents/Frameworks/Gosu.framework /Users/douglives
 cTouch ./GosuCppTutorial.app
 
 N./GosuCppTutorial.app
-t1290300135
+t1290302414
 s102
 
 N./GosuCppTutorial.app/Contents/Frameworks/Gosu.framework
@@ -30,7 +30,7 @@ t1290295667
 s910
 
 N./GosuCppTutorial.app/Contents/MacOS/GosuCppTutorial
-t1290300135
+t1290302414
 s39240
 
 N./GosuCppTutorial.app/Contents/PkgInfo
@@ -337,15 +337,15 @@ t1290292506
 s179139
 
 N/Users/douglivesey/work/cpp/GosuCppTutorial/GameWindow.cpp
-c000000004CE86AE300000000000003E1
-t1290300131
-s993
+c000000004CE873AF00000000000003EB
+t1290302383
+s1003
 i"GameWindow.h"
 
 N/Users/douglivesey/work/cpp/GosuCppTutorial/GameWindow.h
-c000000004CE86AA200000000000001A0
-t1290300066
-s416
+c000000004CE8736700000000000001D5
+t1290302311
+s469
 i"my_includes.h"
 i"Player.h"
 
@@ -368,15 +368,15 @@ s161
 i<Cocoa/Cocoa.h>
 
 N/Users/douglivesey/work/cpp/GosuCppTutorial/Player.cpp
-c000000004CE85F7A00000000000003CB
-t1290297210
-s971
+c000000004CE873CB00000000000003D1
+t1290302411
+s977
 i"Player.h"
 
 N/Users/douglivesey/work/cpp/GosuCppTutorial/Player.h
-c000000004CE85D2F00000000000001D7
-t1290296623
-s471
+c000000004CE873440000000000000202
+t1290302276
+s514
 i"my_includes.h"
 
 N/Users/douglivesey/work/cpp/GosuCppTutorial/build/Debug/GosuCppTutorial.app
@@ -412,8 +412,8 @@ t1290295549
 s20868
 
 N/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/GameWindow.o
-t1290300135
-s142712
+t1290302386
+s142776
 
 N/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/GosuCppTutorial.LinkFileList
 c000000004CE85CB70000000000000222
@@ -425,12 +425,17 @@ t1290295671
 s21312
 
 N/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/Player.o
-t1290297528
-s123336
+t1290302414
+s123432
 
 N/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/main.o
-t1290300070
+t1290302316
 s126688
+
+N/Users/douglivesey/work/cpp/GosuCppTutorial/enums.h
+c000000004CE8730600000000000000FB
+t1290302214
+s251
 
 N/Users/douglivesey/work/cpp/GosuCppTutorial/main.cpp
 c000000004CE864AE00000000000000FE
@@ -455,9 +460,9 @@ t1290299649
 s3126
 
 N/Users/douglivesey/work/cpp/GosuCppTutorial/my_includes.h
-c000000004CE85C1F000000000000017D
-t1290296351
-s381
+c000000004CE8732500000000000001C6
+t1290302245
+s454
 i<Gosu/Gosu.hpp>
 i<Gosu/AutoLink.hpp>
 i<boost/scoped_ptr.hpp>
@@ -467,6 +472,7 @@ i<cmath>
 i<cstdlib>
 i<list>
 i<vector>
+i"enums.h"
 
 N/usr/local/include/boost/array.hpp
 c000000004CD7166F00000000000035A8
@@ -539,11 +545,11 @@ s1002
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies311992999#311992999#0(0"0(0#1#0"8625870176#0"0#
+lSLF07#2@18"Check dependencies311995213#311995213#0(0"0(0#1#0"8629353536#0"0#
 
 CCompileC build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/GameWindow.o /Users/douglivesey/work/cpp/GosuCppTutorial/GameWindow.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s311992934.937158
-e311992935.917401
+s311995185.853525
+e311995186.837781
 r1
 xCompileC
 xbuild/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/GameWindow.o
@@ -552,7 +558,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/douglivesey/work/cpp/GosuCppTutorial/GameWindow.cpp311992934#311992935#0(0"0(0#0#58"/Users/douglivesey/work/cpp/GosuCppTutorial/GameWindow.cpp8627066016#1658"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-generated-files.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-own-target-headers.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-all-target-headers.hmap -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-project-headers.hmap -F. -F/Users/douglivesey/work/cpp/GosuCppTutorial/../../../src -Iinclude -I/usr/local/include -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources/x86_64 -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources -include /var/folders/Id/IdNptV6jF-uR9rbln-qxP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GosuCppTutorial_Prefix-aathcvxbbjyyeufmjxzwczjgmobn/GosuCppTutorial_Prefix.pch -c /Users/douglivesey/work/cpp/GosuCppTutorial/GameWindow.cpp -o /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/GameWindow.o0#
+lSLF07#2@66"Compile /Users/douglivesey/work/cpp/GosuCppTutorial/GameWindow.cpp311995185#311995186#0(0"0(0#0#58"/Users/douglivesey/work/cpp/GosuCppTutorial/GameWindow.cpp8628597088#1658"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-generated-files.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-own-target-headers.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-all-target-headers.hmap -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-project-headers.hmap -F. -F/Users/douglivesey/work/cpp/GosuCppTutorial/../../../src -Iinclude -I/usr/local/include -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources/x86_64 -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources -include /var/folders/Id/IdNptV6jF-uR9rbln-qxP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GosuCppTutorial_Prefix-aathcvxbbjyyeufmjxzwczjgmobn/GosuCppTutorial_Prefix.pch -c /Users/douglivesey/work/cpp/GosuCppTutorial/GameWindow.cpp -o /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/GameWindow.o0#
 
 CCompileC build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/GosuCppTutorialAppDelegate.o /Users/douglivesey/work/cpp/GosuCppTutorial/GosuCppTutorialAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s311988471.069692
@@ -568,8 +574,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/douglivesey/work/cpp/GosuCppTutorial/GosuCppTutorialAppDelegate.m311988471#311988471#0(0"0(0#0#72"/Users/douglivesey/work/cpp/GosuCppTutorial/GosuCppTutorialAppDelegate.m8616889024#1679"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-generated-files.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-own-target-headers.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-all-target-headers.hmap -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-project-headers.hmap -F. -F/Users/douglivesey/work/cpp/GosuCppTutorial/../../../src -Iinclude -I/usr/local/include -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources/x86_64 -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources -include /var/folders/Id/IdNptV6jF-uR9rbln-qxP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GosuCppTutorial_Prefix-gnxomvluwhlyknauihwhksgdlogl/GosuCppTutorial_Prefix.pch -c /Users/douglivesey/work/cpp/GosuCppTutorial/GosuCppTutorialAppDelegate.m -o /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/GosuCppTutorialAppDelegate.o0#
 
 CCompileC build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/Player.o /Users/douglivesey/work/cpp/GosuCppTutorial/Player.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s311990327.641789
-e311990328.786291
+s311995213.701184
+e311995214.732855
 r1
 xCompileC
 xbuild/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/Player.o
@@ -578,11 +584,11 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/douglivesey/work/cpp/GosuCppTutorial/Player.cpp311990327#311990328#0(0"0(0#0#54"/Users/douglivesey/work/cpp/GosuCppTutorial/Player.cpp8630908608#1650"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-generated-files.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-own-target-headers.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-all-target-headers.hmap -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-project-headers.hmap -F. -F/Users/douglivesey/work/cpp/GosuCppTutorial/../../../src -Iinclude -I/usr/local/include -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources/x86_64 -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources -include /var/folders/Id/IdNptV6jF-uR9rbln-qxP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GosuCppTutorial_Prefix-aathcvxbbjyyeufmjxzwczjgmobn/GosuCppTutorial_Prefix.pch -c /Users/douglivesey/work/cpp/GosuCppTutorial/Player.cpp -o /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/Player.o0#
+lSLF07#2@62"Compile /Users/douglivesey/work/cpp/GosuCppTutorial/Player.cpp311995213#311995214#0(0"0(0#0#54"/Users/douglivesey/work/cpp/GosuCppTutorial/Player.cpp8627446336#1650"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-generated-files.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-own-target-headers.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-all-target-headers.hmap -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-project-headers.hmap -F. -F/Users/douglivesey/work/cpp/GosuCppTutorial/../../../src -Iinclude -I/usr/local/include -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources/x86_64 -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources -include /var/folders/Id/IdNptV6jF-uR9rbln-qxP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GosuCppTutorial_Prefix-aathcvxbbjyyeufmjxzwczjgmobn/GosuCppTutorial_Prefix.pch -c /Users/douglivesey/work/cpp/GosuCppTutorial/Player.cpp -o /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/Player.o0#
 
 CCompileC build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/main.o /Users/douglivesey/work/cpp/GosuCppTutorial/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s311992868.908078
-e311992870.046129
+s311995115.704738
+e311995116.853347
 r1
 xCompileC
 xbuild/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/main.o
@@ -591,7 +597,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/douglivesey/work/cpp/GosuCppTutorial/main.cpp311992868#311992870#0(0"0(0#0#52"/Users/douglivesey/work/cpp/GosuCppTutorial/main.cpp8623951296#1646"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-generated-files.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-own-target-headers.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-all-target-headers.hmap -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-project-headers.hmap -F. -F/Users/douglivesey/work/cpp/GosuCppTutorial/../../../src -Iinclude -I/usr/local/include -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources/x86_64 -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources -include /var/folders/Id/IdNptV6jF-uR9rbln-qxP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GosuCppTutorial_Prefix-aathcvxbbjyyeufmjxzwczjgmobn/GosuCppTutorial_Prefix.pch -c /Users/douglivesey/work/cpp/GosuCppTutorial/main.cpp -o /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/main.o0#
+lSLF07#2@60"Compile /Users/douglivesey/work/cpp/GosuCppTutorial/main.cpp311995115#311995116#0(0"0(0#0#52"/Users/douglivesey/work/cpp/GosuCppTutorial/main.cpp8627010208#1646"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-generated-files.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-own-target-headers.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-all-target-headers.hmap -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-project-headers.hmap -F. -F/Users/douglivesey/work/cpp/GosuCppTutorial/../../../src -Iinclude -I/usr/local/include -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources/x86_64 -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources -include /var/folders/Id/IdNptV6jF-uR9rbln-qxP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GosuCppTutorial_Prefix-aathcvxbbjyyeufmjxzwczjgmobn/GosuCppTutorial_Prefix.pch -c /Users/douglivesey/work/cpp/GosuCppTutorial/main.cpp -o /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/main.o0#
 
 CCompileC build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/main.o /Users/douglivesey/work/cpp/GosuCppTutorial/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -645,14 +651,14 @@ xmedia/Space.png
 lSLF07#2@20"Copy media/Space.png311988349#311988349#0(0"0(0#0#59"/Users/douglivesey/work/cpp/GosuCppTutorial/media/Space.png8623916576#354"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/douglivesey/work/cpp/GosuCppTutorial/media/Space.png /Users/douglivesey/work/cpp/GosuCppTutorial/build/Debug/GosuCppTutorial.app/Contents/Resources0#
 
 CLd ./GosuCppTutorial.app/Contents/MacOS/GosuCppTutorial normal x86_64
-s311992935.917488
-e311992935.963170
+s311995214.732943
+e311995214.774568
 r1
 xLd
 x./GosuCppTutorial.app/Contents/MacOS/GosuCppTutorial
 xnormal
 xx86_64
-lSLF07#2@57"Link ./GosuCppTutorial.app/Contents/MacOS/GosuCppTutorial311992935#311992935#0(0"0(0#0#0"8629075040#520"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L. -F. -F/Users/douglivesey/work/cpp/GosuCppTutorial/../../../src -filelist /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/GosuCppTutorial.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Gosu -o ./GosuCppTutorial.app/Contents/MacOS/GosuCppTutorial0#
+lSLF07#2@57"Link ./GosuCppTutorial.app/Contents/MacOS/GosuCppTutorial311995214#311995214#0(0"0(0#0#0"8629239488#520"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L. -F. -F/Users/douglivesey/work/cpp/GosuCppTutorial/../../../src -filelist /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/Objects-normal/x86_64/GosuCppTutorial.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Gosu -o ./GosuCppTutorial.app/Contents/MacOS/GosuCppTutorial0#
 
 CLd /Users/douglivesey/work/cpp/GosuCppTutorial/build/Debug/GosuCppTutorial.app/Contents/MacOS/GosuCppTutorial normal x86_64
 s311988350.957429
@@ -759,12 +765,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@37"Precompile GosuCppTutorial_Prefix.pch311987395#311987396#0(0"0(0#0#70"/Users/douglivesey/work/cpp/GosuCppTutorial/GosuCppTutorial_Prefix.pch8623003584#1647"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-generated-files.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-own-target-headers.hmap -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-all-target-headers.hmap -iquote /Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/GosuCppTutorial-project-headers.hmap -F/Users/douglivesey/work/cpp/GosuCppTutorial/build/Debug -F/Users/douglivesey/work/cpp/GosuCppTutorial/../../../src -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/Debug/include -I/usr/local/include -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources/x86_64 -I/Users/douglivesey/work/cpp/GosuCppTutorial/build/GosuCppTutorial.build/Debug/GosuCppTutorial.build/DerivedSources -c /Users/douglivesey/work/cpp/GosuCppTutorial/GosuCppTutorial_Prefix.pch -o /var/folders/Id/IdNptV6jF-uR9rbln-qxP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GosuCppTutorial_Prefix-cuofetddtnutkvafanulgivrovoa/GosuCppTutorial_Prefix.pch.gch0#
 
 CTouch ./GosuCppTutorial.app
-s311992935.963331
-e311992935.973366
+s311995214.774734
+e311995214.777213
 r1
 xTouch
 x./GosuCppTutorial.app
-lSLF07#2@27"Touch ./GosuCppTutorial.app311992935#311992935#0(0"0(0#0#0"8628895616#95"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    /usr/bin/touch -c ./GosuCppTutorial.app0#
+lSLF07#2@27"Touch ./GosuCppTutorial.app311995214#311995214#0(0"0(0#0#0"8629142688#95"    cd /Users/douglivesey/work/cpp/GosuCppTutorial    /usr/bin/touch -c ./GosuCppTutorial.app0#
 
 CTouch /Users/douglivesey/work/cpp/GosuCppTutorial/build/Debug/GosuCppTutorial.app
 s311988351.002600

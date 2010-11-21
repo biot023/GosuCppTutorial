@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>A6C3403F12989CA200353B9A</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>GameWindow.cpp</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>A6C3404012989CA200353B9A</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>GameWindow.cpp</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>A6C340751298A26800353B9A</string>
-						<key>history</key>
-						<array>
-							<string>A6C3403812989C7D00353B9A</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {796, 514}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>642 181 796 555 0 0 1440 878 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -321,8 +280,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
-									<integer>8</integer>
+									<integer>7</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -346,7 +305,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>652 374 788 504 0 0 1440 878 </string>
+						<string>-1 374 788 504 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -362,7 +321,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>main.cpp</string>
+								<string>GosuCppTutorialAppDelegate.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -370,21 +329,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>main.cpp</string>
+										<string>GosuCppTutorialAppDelegate.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A6C340741298A26800353B9A</string>
+										<string>A6C340A91298AB5D00353B9A</string>
 										<key>history</key>
 										<array>
 											<string>A6C33FAD12988C9700353B9A</string>
-											<string>A6C33FAE12988C9700353B9A</string>
-											<string>A6C33FB012988C9700353B9A</string>
 											<string>A6C340111298983900353B9A</string>
-											<string>A6C340121298983900353B9A</string>
 											<string>A6C340611298A21600353B9A</string>
-											<string>A6C340731298A26800353B9A</string>
-											<string>A6C3403B12989CA200353B9A</string>
+											<string>A6C340881298AA2D00353B9A</string>
+											<string>A6C340891298AA2D00353B9A</string>
+											<string>A6C3408A1298AA2D00353B9A</string>
+											<string>A6C3408B1298AA2D00353B9A</string>
+											<string>A6C340931298AAEE00353B9A</string>
+											<string>A6C33FAE12988C9700353B9A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -398,7 +358,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {580, 277}}</string>
 								<key>RubberWindowFrame</key>
-								<string>652 374 788 504 0 0 1440 878 </string>
+								<string>-1 374 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -418,7 +378,7 @@
 								<key>Frame</key>
 								<string>{{0, 282}, {580, 181}}</string>
 								<key>RubberWindowFrame</key>
-								<string>652 374 788 504 0 0 1440 878 </string>
+								<string>-1 374 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -582,17 +542,16 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>A6C340761298A26800353B9A</string>
-		<string>A6C3403F12989CA200353B9A</string>
+		<string>A6C340A41298AB4F00353B9A</string>
 		<string>A6C33FD512988D2A00353B9A</string>
 		<string>A6C33FD612988D2A00353B9A</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>A6C33F9B12988A3900353B9A</string>
 		<string>/Users/douglivesey/work/cpp/GosuCppTutorial/GosuCppTutorial.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
-	<string>652 374 788 504 0 0 1440 878 </string>
+	<string>-1 374 788 504 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -613,7 +572,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GameWindow.cpp</string>
+								<string>enums.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -973,7 +932,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

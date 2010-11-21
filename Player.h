@@ -7,6 +7,9 @@
  *
  */
 
+#ifndef __PLAYER
+#define __PLAYER
+
 #include "my_includes.h"
 
 class Player {
@@ -24,3 +27,5 @@ private:
   boost::scoped_ptr<Gosu::Image> image;
   double posX, posY, velX, velY, angle;
 };
+
+#endif
